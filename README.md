@@ -3,20 +3,32 @@ vagrant_examples
 
 Examples using vagrant and chef to setup basic boxes
 
-Setup:
-------
+Setup
+-----
 * install virtual box https://www.virtualbox.org/wiki/Downloads
 * install vagrant http://downloads.vagrantup.com/
 
-you can pick from available pre-canned boxes at http://www.vagrantbox.es
-
-to get your own plain ubuntu box (and for the examples contained herein) run this on the command line:
+Examples
+--------
+From the command line run:
 
 * vagrant box add ubuntu http://dl.dropbox.com/u/4031118/Vagrant/ubuntu-12.04.1-server-i686-virtual.box
 
-drop to a command line inside the boxes directory and pick one of the subdirectories for the example to try out:
+This command will download a ubuntu box to your local machine and associate it with the alias ubuntu.
 
-* hello is a simple hello world recipe showing how to set inputs in the node
-* ruby is doing our default ruby ubuntu setup by mapping the vender_artifacts directory
+Change directory to the boxes directory and pick one of its subdirectories for the example to try out:
 
-run the command '''vagrant up''' from the directory in question
+* hello
+    * a hello world recipe showing how to set inputs in the node
+
+* ruby
+    * a default ruby setup mapping the vender_artifacts directory to a directory inside the virtual machine
+
+To try out the recipes just run the command `vagrant up` from the directory in question
+
+
+See also
+--------
+
+* http://vagrantup.com
+* You can pick from a list of available pre-canned boxes at http://www.vagrantbox.es
