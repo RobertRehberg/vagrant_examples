@@ -1,0 +1,43 @@
+{
+  "name": "hello",
+  "description": "Test vagrant",
+  "long_description": "",
+  "maintainer": "BAD",
+  "maintainer_email": "YOUR_EMAIL",
+  "license": "none",
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+    "hello/world": {
+      "display_name": "world",
+      "recipes": [
+        "hello::default"
+      ],
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string",
+      "required": "optional"
+    }
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "hello::default": "Tests setting inputs"
+  },
+  "version": "0.0.1"
+}

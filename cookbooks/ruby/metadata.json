@@ -1,0 +1,31 @@
+{
+  "name": "ruby",
+  "description": "Install and configure ruby",
+  "long_description": "",
+  "maintainer": "BAD",
+  "maintainer_email": "YOUR_EMAIL",
+  "license": "none",
+  "platforms": {
+    "ubuntu": ">= 0.0.0"
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "ruby::default": "Installs ruby from source"
+  },
+  "version": "0.0.1"
+}

@@ -1,0 +1,1 @@
+knife cookbook metadata $1 -o ~/src/chef/cookbooks/
