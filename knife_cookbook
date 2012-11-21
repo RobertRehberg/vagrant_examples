@@ -1,1 +1,1 @@
-knife cookbook metadata $1 -o ~/src/chef/cookbooks/
+knife cookbook metadata $1 -o ~/src/vagrant_examples/cookbooks/
