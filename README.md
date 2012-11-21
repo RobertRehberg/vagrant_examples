@@ -19,8 +19,11 @@ This command will download a ubuntu box to your local machine and associate it w
 Change directory to the boxes directory and pick one of its subdirectories for the example to try
 
 * hello
+
     a hello world recipe showing how to set inputs in the node
+
 * ruby
+
     a default ruby setup mapping the vender_artifacts directory to a directory inside the virtual machine
 
 To try out the recipes just run the command `vagrant up` from the directory in question
